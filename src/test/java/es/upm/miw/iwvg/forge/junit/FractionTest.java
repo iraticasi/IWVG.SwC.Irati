@@ -21,38 +21,4 @@ class FractionTest {
         assertEquals(2f/3f, fraction1.decimal(), 10e-5);
     }
 
-    @Test
-    void testIsPropiaTrue(){
-        assertEquals(true, fraction1.isPropia(fraction1));
-    }
-
-    @Test
-    void testIsPropiaFalse(){
-        assertEquals(false, fraction1.isPropia(fraction3));
-    }
-
-    @Test
-    void testIsImpropiaTrue(){
-        assertEquals(true, fraction1.isImpropia(fraction3));
-    }
-
-    @Test
-    void testIsImpropiaFalse(){
-        assertEquals(false, fraction1.isImpropia(fraction1));
-    }
-
-    @Test
-    void testIsImpropia(){}
-
-    @Test
-    void testIsEquivalenteTrue(){
-        assertEquals(true, fraction1.isEquivalente(fraction2));
-
-    }
-
-    @Test
-    void testIsEquivalenteFalse(){
-        assertEquals(false, fraction1.isEquivalente(fraction3));
-
-    }
 }
