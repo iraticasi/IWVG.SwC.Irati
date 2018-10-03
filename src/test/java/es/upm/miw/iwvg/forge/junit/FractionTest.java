@@ -21,4 +21,9 @@ class FractionTest {
         assertEquals(2f/3f, fraction1.decimal(), 10e-5);
     }
 
+    @Test
+    void testisPropia() {
+        assertEquals(true, fraction1.isPropia());
+    }
+
 }
