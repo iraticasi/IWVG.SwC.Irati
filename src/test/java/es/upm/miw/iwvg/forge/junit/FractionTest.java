@@ -13,17 +13,22 @@ class FractionTest {
     void before() {
         fraction1 = new Fraction(2, 3);
         fraction2 = new Fraction(4, 6);
-        fraction3= new Fraction(5,3);
+        fraction3 = new Fraction(5, 3);
     }
 
     @Test
     void testDecimal() {
-        assertEquals(2f/3f, fraction1.decimal(), 10e-5);
+        assertEquals(2f / 3f, fraction1.decimal(), 10e-5);
     }
 
     @Test
     void testisPropia() {
         assertEquals(true, fraction1.isPropia());
+    }
+
+    @Test
+    void testIsImpropia() {
+        assertEquals(true, fraction3.isImpropia());
     }
 
 }
