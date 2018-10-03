@@ -13,3 +13,8 @@
 > [XinYu. Li](https://github.com/L-Xinyu)  
 > [Alexandra Cabrera](https://github.com/AlexandraCabreraLituma)  
 > [Jesús Zea](https://github.com/jzea)
+
+### Estado del código
+
+`Develop`: [![Build Status](https://travis-ci.org/iraticasi/IWVG.SwC.Irati.svg?branch=develop)](https://travis-ci.org/iraticasi/IWVG.SwC.Irati)  
+`Master`: [![Build Status](https://travis-ci.org/iraticasi/IWVG.SwC.Irati.svg?branch=master)](https://travis-ci.org/iraticasi/IWVG.SwC.Irati)
