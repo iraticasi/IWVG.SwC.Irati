@@ -17,6 +17,9 @@ public class User {
     private String format(String string) {
         return string.trim().substring(0, 1).toUpperCase() + string.substring(1).toLowerCase();
     }
+    public String uppercaseName() {
+        return this.name.toUpperCase();
+    }
 
     public String fullName() {
         return this.name + " " + this.familyName;
