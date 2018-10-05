@@ -22,7 +22,7 @@ class FractionTest {
     }
 
     @Test
-    void testisPropia() {
+    void testIsPropia() {
         assertEquals(true, fraction1.isPropia());
     }
 
