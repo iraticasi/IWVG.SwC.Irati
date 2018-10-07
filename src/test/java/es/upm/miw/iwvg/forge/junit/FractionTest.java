@@ -30,5 +30,8 @@ class FractionTest {
     void testIsImpropia() {
         assertEquals(true, fraction3.isImpropia());
     }
-
+    @Test
+    void TestIsEquivalente() {
+        assertEquals(true,fraction1.isEquivalente(fraction2));
+    }
 }
