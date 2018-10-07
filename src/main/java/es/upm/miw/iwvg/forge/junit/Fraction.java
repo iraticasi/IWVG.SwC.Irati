@@ -60,4 +60,8 @@ public class Fraction {
     public boolean isImpropia() {
         return !isPropia();
     }
+
+    public boolean isEquivalente(Fraction other) {
+        return ((this.numerator*other.getDenominator())==(this.denominator*other.getNumerator()));
+    }
 }
